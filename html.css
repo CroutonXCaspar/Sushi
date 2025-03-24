@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(5, 2, 44);
+}
+article{
+    color: white;
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10px;
+}
+#great{
+    font-family: cursive;
+    border: 2px solid red;
+}
+.title{
+    color: red;
+}
+.uppurcase{
+    text-transform: uppercase;
+}
+nav{
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 940px;
+    max-width: max-content;
+    max-height: max-content;
+    background-color: rgb(5, 2, 44);
+    position: 50%;
+}
+
+a[href*='index']{
+    color: lightgreen;
+    background-color: rgb(5, 2, 44);
+}
+a[href*='css']{
+    color: lightgreen;
+    background-color: rgb(5, 2, 44);
+}
+a[href*='html']{
+    color: lightgreen;
+}
+a[href*='tables']{
+    color: lightpink;
+}
+a[href*='forms']{
+    color: lightyellow;
+}
+.oh{
+    color: blueviolet;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(5, 2, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 60px;
+}
+
+h3{
+    margin: 0;
+}
+a:hover{
+    color: darkorange;
+}
+.heading-background{
+    background-color: rgb(255, 0, 247);
+}
+code {
+    color: white;
+    background-color: rgb(5, 2, 44);
+    padding: 2px;
+    border-radius: 5px;
+}

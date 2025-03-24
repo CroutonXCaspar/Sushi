@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="index.html">Retour</a></li>
+            <li><a href="html.html">HTML</a></li>
+        </ul>
+        </nav>
+    </header>
+    <article>
+        <h1 class="uppercase">CSS</h1>
+        <figure>
+            <img src="css logo.png" alt="CSS logo">
+        </figure>
+        <h1>Introduction</h1>
+        <p>L'anatomie de base de la syntaxe CSS écrite pour les styles en ligne et les feuilles de style. <br>  
+            Certains termes CSS couramment utilisés, tels que règles, sélecteur et déclaration.  <br>
+            Les styles en ligne CSS peuvent être écrits à l'intérieur de la balise HTML d'ouverture en utilisant l'attribut style.  <br>
+            Les styles en ligne peuvent être utilisés pour styliser HTML, mais ce n'est pas la meilleure pratique.  <br>
+            Une feuille de style interne est écrite en utilisant l'élément "style" à l'intérieur de l'élément "head" d'un fichier HTML. <br>  
+            Les feuilles de style internes peuvent être utilisées pour styliser HTML mais ne sont également pas la meilleure pratique.  <br>
+            Une feuille de style externe sépare le code CSS du HTML, en utilisant l'extension de fichier .css.  <br>
+            Les feuilles de style externes sont la meilleure approche en ce qui concerne l'utilisation de HTML et CSS. <br>  
+            Les feuilles de style externes sont liées à HTML en utilisant l'élément .</p>
+            <a href="https://www.codecademy.com/resources/docs/css/anatomy" target="_blank">For more Information</a>
+        <h1>
+            Les Selecteurs
+        </h1>
+        <p>
+        CSS peut sélectionner des éléments HTML par type, classe, ID et attribut. <br>
+        Tous les éléments peuvent être sélectionnés en utilisant le sélecteur universel. <br>
+        Un élément peut avoir différents états en utilisant le sélecteur de pseudo-classe. <br>
+        Plusieurs classes CSS peuvent être appliquées à un seul élément HTML. <br>
+        Les classes peuvent être réutilisables, tandis que les ID ne peuvent être utilisés qu'une seule fois. <br>
+        Les ID sont plus spécifiques que les classes, et les classes sont plus spécifiques que le type. Cela signifie que les ID remplaceront tous les styles d'une classe, et les classes remplaceront tous les styles d'un sélecteur de type. <br>
+        Plusieurs <a href="https://www.codecademy.com/resources/docs/css/selectors" target="_blank" class="select">sélecteurs</a>  peuvent être enchaînés pour sélectionner un élément. Cela augmente la spécificité mais peut être nécessaire. <br>
+        Les éléments imbriqués peuvent être sélectionnés en séparant les sélecteurs par un espace. <br>
+        Plusieurs sélecteurs non liés peuvent recevoir les mêmes styles en séparant les noms des sélecteurs par des virgules. <br>
+        </p>
+
+        <h1>Les regles visuel</h1>
+        <p>When setting typefaces on a web page, keep the following points in mind: <br>
+
+            The font specified must be installed on the user’s computer or downloaded with the site. <br>
+            Web safe fonts are a group of fonts supported across most browsers and operating systems. <br>
+            Unless you are using web safe fonts, the font you choose may not appear the same between all browsers and operating systems. <br>
+            When the name of a typeface consists of more than one word, it’s a best practice to enclose the typeface’s name in quotes, like so:
+        </p>
+        <pre> <code> h1 {
+            font-family: 'Courier New'} </code> </pre>
+    </article>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Information</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+    <header>
+        <nav class="ok">
+            <ul>
+                <li><a href="index.html" target="_blank">Ver l'acceuil</a></li>
+                <li><a href="css.html" target="_blank">Ver le CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <article>
+        <h1 id="great" class="title uppercase">HTML</h1>
+        <figure>
+            <img src="logo/html logo.png" alt="HTML logo">
+        </figure>
+        <section class="intro">
+        
+            <h1 class="heading-background">Introduction</h1>
+             <p>HTML est un langage informatique utilisant des balises.</p>
+             <ul>
+                <li>HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.</li>
+                <li>Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.</li>
+                <li>HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.</li>
+                <li>Any visible content should be placed within the opening and closing <strong>body</strong> tags</li>
+                <li>Heading and sub-headings, <strong>h1 and h6</strong> tags, are used to provide titles for sections of content.</li>
+                <li> <strong>p, span, div</strong> tags specify text or blocks</li>
+                <li>The <strong>em and strong</strong> tags are used to emphasize text.</li>
+                <li>Line breaks are created with <strong>br</strong> tag</li>
+                <li>Ordered lists <strong>ol</strong> are numbered and unordered lists <strong>ul</strong> are bulleted.</li>
+                <li>Images <strong>img</strong> and <strong>video</strong> can be added by linking to an existing source</li>
+             </ul>
+             <p>For more information go <a href="https://www.codecademy.com/resources/docs/html" target="_blank">here</a> </p>
+            </section>
+        <section id="Table">
+    <h1 class="heading-background">Structure par rapport au tableau</h1>
+            <p>Les tableaux servent beacoup dans la vie de tout les jours.</p>
+        <ul>
+            <li> The <strong>table</strong> element creates a table.</li> 
+            <li> The <strong>tr</strong> element adds rows to a table.</li>
+            <li> To add data to a row, you can use the <strong>td</strong> element. </li>
+            <li> Table headings clarify the meaning of data. Headings are added with the <strong>th</strong> element. </li>
+            <li> Table data can span columns using the <em>colspan</em>  attribute. </li>
+            <li> Table data can span rows using the <em>rowspan</em>  attribute. </li>
+            <li> Tables can be split into three main sections: a head, a body, and a footer. </li>
+            <li> A table’s head is created with the <strongt>head</strong> element. </li>
+            <li> A table’s body is created with the <strong>tbody</strong> element. </li>
+            <li> A table’s footer is created with the <strong>tfoot</strong> element. </li>
+            <li> All the CSS properties you learned about in this course can be applied to tables and their data. </li>
+        </ul>
+        <a href="https://www.codecademy.com/resources/docs/html/tables">For more information</a>
+    </section>
+
+    <section id="Form">
+        <h1 class="heading-background">Form</h1>
+        <p>Voici comment sont organise les formulaires</p>
+            <ul>
+                <li>The purpose of a <strong>form</strong> is to allow users to input information and send it.</li>
+                <li>The <strong>form</strong> <em>action</em> attribute determines where the form’s information goes.</li>
+                <li>The <strong>form</strong> <em>method</em> attribute determines how the information is sent and processed.</li>
+                <li>To add fields for users to input information we use the <strong>input</strong> element and set the <em>type</em> attribute to a field of our choosing:</li>
+            <ul>
+                <li>Setting type to <em>"text"</em> creates a single row field to text input</li>
+                <li>Setting type to <em>"password"</em> creates a single row field that censors text input.</li>
+                <li>Setting type to <em>"number"</em> creates a single row field for number input.</li>
+                <li>Setting type to <em>"range"</em> creates a slider to select from a range of numbers.</li>
+                <li>Setting type to <em>checkbox"</em> "creates a single checkbox that can be paired with other checkboxes.</li>
+                <li>Setting type to <em>"radio"</em> creates a radio button that can be paired with other radio buttons.</li>
+                <li>Setting type to <em>"text"</em> and adding the list attribute will pair the <strong>input</strong>  with a <strong>datalist</strong>  element if the list of input and the id of datalist are the same.</li>
+                <li>Setting type to <em>"submit"</em> creates a submit button.</li>
+            </ul>
+            
+                <li>A <strong>select</strong> element is populated with <strong>option</strong> elements and renders a dropdown list selection.</li>
+                <li>A <strong>datalist</strong> element is populated with <strong>option</strong> elements and works with an <strong>input</strong> to search through choices.</li>
+                <li>A <strong>textarea </strong> element is a text input field that has customizable area</li>
+                <li>When a <strong>form</strong> is submitted, the <em>name</em> of the fields that accept input and the <em>value</em> of those fields are sent as <em>name=value</em> pairs</li>
+            </ul>
+        </section>
+
+        <section id="Form2">
+            <ul>
+                <li>Client-side validations happen in the browser before information is sent to a server.</li>
+                <li>Adding the <em>required</em> attribute to an input related element will validate that the input field has information in it.</li>
+                <li>Assigning a value to the <em>min</em> attribute of a number input element will validate an acceptable minimum value.</li>
+                <li>Assigning a value to the <em>max</em> attribute of a number input element will validate an acceptable maximum value.</li>
+                <li>Assigning a value to the <em>minlength</em> attribute of a text input element will validate an acceptable minimum number of characters.</li>
+                <li>Assigning a value to the <em>maxlength</em> attribute of a text input element will validate an acceptable maximum number of characters.</li>
+                <li>If validations on a <strong>form</strong> do not pass, the user gets a message explaining why and the <strong>form</strong> cannot be submitted.</li>
+            </ul>
+            <a href="https://www.codecademy.com/resources/docs/html/forms">For more information</a>
+            </section>
+
+        <section id="semantic">
+            <h1>Semantic</h1>
+            <p>Semantic HTML introduces meaning to a page through specific elements that provide context as to what is in between the tags. <br>
+                Semantic HTML is a modern standard and makes a website accessible for people who use screen readers to translate the webpage and improves your website’s SEO.
+                <code>header, nav , main and footer</code>  create the basic structure of the webpage. <br>
+                <code>section</code> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme. <br>
+                <code>article</code> holds content that makes sense on its own such as articles, blogs, comments, etc. <br>
+                <code>aside</code> contains information that is related to the main content, but not required in order to understand the dominant information. <br>
+                <code>figure</code> encapsulates all types of media. <br>
+                <code>figcaption</code>  is used to describe the media in <code>figure</code>. <br>
+                <code>video, embed, and audio</code> elements are used for media files.</p>
+        </section>
+        </article>
+    </main>
+
+    <footer>
+        <nav class="oh"><a href="https://www.codecademy.com/learn">For documentation</a></nav>  
+        <h3>Copyright 2025 &copy;</h3>
+    </footer>
+</body>
+</html>
