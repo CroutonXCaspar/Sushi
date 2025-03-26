@@ -10,7 +10,7 @@ nav{
     background-color: rgb(5, 2, 44);
     position: 50%;
 }
-li{
+ul.header{
     border: 1px solid yellow;
 }
 .uppercase{
@@ -27,11 +27,14 @@ article{
 a:hover{
     color: rgb(0, 254, 59);
 }
-li:hover{
+ul.header:hover{
     background-color: rgb(255, 3, 3);
 }
 
 a.select:hover{
     font-family: monospace;
     color: gold;
+}
+.background-image{
+    background-color: black;
 }
